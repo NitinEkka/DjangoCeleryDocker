@@ -92,3 +92,9 @@ docker exec -it CONTAINER_ID bin/bash
 
 # Stop Nginx
 sudo systemctl stop nginx
+
+# Static files
+files.zip is for the static file , unzip it. Keep it in the root directory.
+
+# Env
+Create a virtual env with requirements.txt
