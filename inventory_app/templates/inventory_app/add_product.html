@@ -1,0 +1,12 @@
+<h2>Add Product</h2>
+<form method='post'>
+    {% csrf_token %}
+    <label for="lang">StockName</label>
+    <select id="category_name" type="text" name="category_name">
+        <option value="Item1">Item1</option>
+        <option value="Item2">Item2</option>
+        <option value="Item3">Item3</option>
+    </select>
+    <input id="quantity" type="number" name="quantity">
+    <input type="submit" value="OK">
+</form>

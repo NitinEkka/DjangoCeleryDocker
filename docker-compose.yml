@@ -1,0 +1,80 @@
+# python manage.py runserver 0.0.0.0:8000  
+# gunicorn --bind 0.0.0.0:8000 inventory_management.wsgi  
+version: '3'
+
+services:
+  web:
+    build: .
+    command: gunicorn --bind 0.0.0.0:8000 inventory_management.wsgi 
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379
+      - CELERY_RESULT_BACKEND=redis://redis:6379
+      - PYTHONPATH=/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+    volumes:
+      - .:/stockmanagement
+    restart: on-failure   
+
+  celery:
+    build: .
+    command: celery -A inventory_app worker --loglevel=DEBUG -B --concurrency=1 --pool=solo --without-gossip --without-mingle
+    environment:
+      - PYTHONPATH=/app
+      - CELERY_BROKER_URL=redis://redis:6379
+      - CELERY_RESULT_BACKEND=redis://redis:6379
+    depends_on:
+      - redis
+    volumes:
+      - .:/stockmanagement
+    mem_limit: 512m
+    cpus: 2
+    restart: on-failure
+
+  celery-beat:
+    build: .
+    command: celery -A inventory_app beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    environment:
+      - PYTHONPATH=/app
+      - CELERY_BROKER_URL=redis://redis:6379
+      - CELERY_RESULT_BACKEND=redis://redis:6379
+    depends_on:
+      - redis
+    volumes:
+      - .:/stockmanagement
+    mem_limit: 512m
+    cpus: 2
+    restart: on-failure
+  
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  rocket-logger:
+    build: .
+    command: python ./celery_logging.py
+    volumes:
+      - .:/stockmanagement
+    restart: on-failure
+    depends_on:
+      - web
+
+  nginx:
+    build: ./nginx
+    volumes:
+      - .:/stockmanagement
+    ports:
+      - "80:80"
+    depends_on:
+      - web
+    restart: on-failure
+
+
+
+
+    
+    

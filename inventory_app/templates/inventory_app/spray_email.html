@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Spray Usage Information</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .container{
+            background-color: rgb(205, 205, 205);
+            border: 6px rgb(rgb(0, 0, 0), green, blue);
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <ul>
+        
+    <h1 style="color: rgb(0, 0, 0); font-family: 'Times New Roman', Times, serif;">SPRAY USAGE DATA FOR FARM {{ farm }} </h1>
+    
+    <div class="container" style="color: black;">SUCCESSFULLY USED RECIPE : {{data}}
+    </div>
+    {% for key,value in data.items %}
+    <div class="container" style="color: black;">
+    STOCK NAME : {{ key }}
+    <br>
+    QUANTITY : {{ value }}
+    <br>
+    </div>
+    {% endfor %}
+        
+    
+    </ul>
+</body>
+</html>

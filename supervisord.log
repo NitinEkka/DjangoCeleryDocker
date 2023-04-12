@@ -1,0 +1,269 @@
+2023-04-07 23:45:24,769 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-07 23:45:24,771 INFO supervisord started with pid 15
+2023-04-07 23:45:25,776 INFO spawned: 'rocketchat_checker' with pid 18
+2023-04-07 23:45:25,797 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:45:26,802 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-07 23:45:26,826 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:45:28,831 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-07 23:45:28,852 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:45:31,859 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-07 23:45:31,899 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:45:32,900 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-07 23:46:29,015 WARN received SIGINT indicating exit request
+2023-04-07 23:46:36,277 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-07 23:46:36,279 INFO supervisord started with pid 22
+2023-04-07 23:46:37,282 INFO spawned: 'rocketchat_checker' with pid 25
+2023-04-07 23:46:37,311 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:46:38,316 INFO spawned: 'rocketchat_checker' with pid 26
+2023-04-07 23:46:38,340 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:46:40,346 INFO spawned: 'rocketchat_checker' with pid 27
+2023-04-07 23:46:40,369 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:46:43,377 INFO spawned: 'rocketchat_checker' with pid 28
+2023-04-07 23:46:43,404 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:46:44,405 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-07 23:50:24,554 WARN received SIGINT indicating exit request
+2023-04-07 23:51:52,902 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-07 23:51:52,904 INFO supervisord started with pid 15
+2023-04-07 23:51:53,907 INFO spawned: 'rocketchat_checker' with pid 18
+2023-04-07 23:51:53,925 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:51:54,929 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-07 23:51:54,970 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:51:56,976 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-07 23:51:56,994 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:52:00,002 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-07 23:52:00,022 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:52:01,024 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-07 23:53:31,730 WARN received SIGINT indicating exit request
+2023-04-07 23:54:54,805 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-07 23:54:54,807 INFO supervisord started with pid 15
+2023-04-07 23:54:55,810 INFO spawned: 'rocketchat_checker' with pid 18
+2023-04-07 23:54:55,856 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:54:56,861 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-07 23:54:56,884 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:54:58,889 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-07 23:54:58,912 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:55:01,917 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-07 23:55:01,933 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-07 23:55:02,935 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-07 23:59:40,314 WARN received SIGINT indicating exit request
+2023-04-08 00:01:08,124 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-08 00:01:08,127 INFO supervisord started with pid 15
+2023-04-08 00:01:09,130 INFO spawned: 'rocketchat_checker' with pid 18
+2023-04-08 00:01:09,157 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:01:10,161 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-08 00:01:10,182 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:01:12,188 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-08 00:01:12,208 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:01:15,215 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-08 00:01:15,238 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:01:15,238 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-08 00:03:51,399 WARN received SIGINT indicating exit request
+2023-04-08 00:04:56,780 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-08 00:04:56,782 INFO supervisord started with pid 15
+2023-04-08 00:04:57,786 INFO spawned: 'rocketchat_checker' with pid 18
+2023-04-08 00:04:57,808 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:04:58,811 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-08 00:04:58,827 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:00,833 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-08 00:05:00,856 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:03,863 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-08 00:05:03,884 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:07,891 INFO spawned: 'rocketchat_checker' with pid 22
+2023-04-08 00:05:07,911 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:12,921 INFO spawned: 'rocketchat_checker' with pid 23
+2023-04-08 00:05:12,942 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:18,954 INFO spawned: 'rocketchat_checker' with pid 24
+2023-04-08 00:05:18,976 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:25,988 INFO spawned: 'rocketchat_checker' with pid 25
+2023-04-08 00:05:26,009 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:34,019 INFO spawned: 'rocketchat_checker' with pid 26
+2023-04-08 00:05:34,038 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:43,052 INFO spawned: 'rocketchat_checker' with pid 27
+2023-04-08 00:05:43,094 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:05:53,109 INFO spawned: 'rocketchat_checker' with pid 28
+2023-04-08 00:05:53,131 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:06:04,147 INFO spawned: 'rocketchat_checker' with pid 29
+2023-04-08 00:06:04,167 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:06:16,185 INFO spawned: 'rocketchat_checker' with pid 30
+2023-04-08 00:06:16,228 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:06:29,242 INFO spawned: 'rocketchat_checker' with pid 31
+2023-04-08 00:06:29,260 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:06:43,279 INFO spawned: 'rocketchat_checker' with pid 32
+2023-04-08 00:06:43,322 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:06:58,343 INFO spawned: 'rocketchat_checker' with pid 33
+2023-04-08 00:06:58,360 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:07:14,382 INFO spawned: 'rocketchat_checker' with pid 34
+2023-04-08 00:07:14,423 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:07:31,446 INFO spawned: 'rocketchat_checker' with pid 35
+2023-04-08 00:07:31,459 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:07:49,485 INFO spawned: 'rocketchat_checker' with pid 36
+2023-04-08 00:07:49,527 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:08:08,556 INFO spawned: 'rocketchat_checker' with pid 37
+2023-04-08 00:08:08,596 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:08:28,621 INFO spawned: 'rocketchat_checker' with pid 38
+2023-04-08 00:08:28,670 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:08:29,671 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-08 00:09:37,319 WARN received SIGINT indicating exit request
+2023-04-08 00:11:05,461 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-08 00:11:05,464 INFO supervisord started with pid 41
+2023-04-08 00:11:06,469 INFO spawned: 'rocketchat_checker' with pid 44
+2023-04-08 00:11:06,497 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:07,502 INFO spawned: 'rocketchat_checker' with pid 45
+2023-04-08 00:11:07,523 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:09,529 INFO spawned: 'rocketchat_checker' with pid 46
+2023-04-08 00:11:09,550 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:12,557 INFO spawned: 'rocketchat_checker' with pid 47
+2023-04-08 00:11:12,600 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:16,608 INFO spawned: 'rocketchat_checker' with pid 48
+2023-04-08 00:11:16,649 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:21,657 INFO spawned: 'rocketchat_checker' with pid 49
+2023-04-08 00:11:21,699 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:27,719 INFO spawned: 'rocketchat_checker' with pid 50
+2023-04-08 00:11:27,755 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:34,766 INFO spawned: 'rocketchat_checker' with pid 51
+2023-04-08 00:11:34,811 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:42,821 INFO spawned: 'rocketchat_checker' with pid 52
+2023-04-08 00:11:42,838 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:11:51,850 INFO spawned: 'rocketchat_checker' with pid 53
+2023-04-08 00:11:51,891 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:12:01,907 INFO spawned: 'rocketchat_checker' with pid 54
+2023-04-08 00:12:01,950 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:12:12,964 INFO spawned: 'rocketchat_checker' with pid 55
+2023-04-08 00:12:12,981 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:12:24,999 INFO spawned: 'rocketchat_checker' with pid 57
+2023-04-08 00:12:25,046 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:12:38,065 INFO spawned: 'rocketchat_checker' with pid 58
+2023-04-08 00:12:38,106 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:12:52,126 INFO spawned: 'rocketchat_checker' with pid 59
+2023-04-08 00:12:52,170 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:13:07,193 INFO spawned: 'rocketchat_checker' with pid 60
+2023-04-08 00:13:07,213 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:13:23,238 INFO spawned: 'rocketchat_checker' with pid 61
+2023-04-08 00:13:23,258 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:13:40,284 INFO spawned: 'rocketchat_checker' with pid 62
+2023-04-08 00:13:40,303 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:13:58,330 INFO spawned: 'rocketchat_checker' with pid 63
+2023-04-08 00:13:58,369 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:14:17,392 INFO spawned: 'rocketchat_checker' with pid 64
+2023-04-08 00:14:17,436 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:14:37,462 INFO spawned: 'rocketchat_checker' with pid 65
+2023-04-08 00:14:37,508 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:14:38,509 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-08 00:15:49,920 WARN received SIGINT indicating exit request
+2023-04-08 00:17:14,571 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-08 00:17:14,573 INFO supervisord started with pid 15
+2023-04-08 00:17:15,577 INFO spawned: 'rocketchat_checker' with pid 18
+2023-04-08 00:17:15,597 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:16,601 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-08 00:17:16,637 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:18,643 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-08 00:17:18,661 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:21,666 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-08 00:17:21,679 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:25,686 INFO spawned: 'rocketchat_checker' with pid 22
+2023-04-08 00:17:25,723 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:30,732 INFO spawned: 'rocketchat_checker' with pid 23
+2023-04-08 00:17:30,758 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:36,766 INFO spawned: 'rocketchat_checker' with pid 24
+2023-04-08 00:17:36,784 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:43,792 INFO spawned: 'rocketchat_checker' with pid 25
+2023-04-08 00:17:43,809 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:17:51,819 INFO spawned: 'rocketchat_checker' with pid 26
+2023-04-08 00:17:51,879 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:18:00,894 INFO spawned: 'rocketchat_checker' with pid 27
+2023-04-08 00:18:00,924 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:18:10,935 INFO spawned: 'rocketchat_checker' with pid 28
+2023-04-08 00:18:10,967 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:18:21,986 INFO spawned: 'rocketchat_checker' with pid 29
+2023-04-08 00:18:22,007 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:18:34,025 INFO spawned: 'rocketchat_checker' with pid 30
+2023-04-08 00:18:34,070 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:18:47,088 INFO spawned: 'rocketchat_checker' with pid 31
+2023-04-08 00:18:47,108 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:19:01,130 INFO spawned: 'rocketchat_checker' with pid 32
+2023-04-08 00:19:01,153 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:19:16,174 INFO spawned: 'rocketchat_checker' with pid 33
+2023-04-08 00:19:16,197 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:19:32,221 INFO spawned: 'rocketchat_checker' with pid 34
+2023-04-08 00:19:32,241 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:19:49,267 INFO spawned: 'rocketchat_checker' with pid 35
+2023-04-08 00:19:49,289 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:20:07,314 INFO spawned: 'rocketchat_checker' with pid 36
+2023-04-08 00:20:07,341 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:20:26,367 INFO spawned: 'rocketchat_checker' with pid 37
+2023-04-08 00:20:26,391 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:20:46,421 INFO spawned: 'rocketchat_checker' with pid 38
+2023-04-08 00:20:46,445 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:20:47,446 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-08 00:29:44,684 WARN received SIGINT indicating exit request
+2023-04-08 00:31:28,534 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-08 00:31:28,538 INFO supervisord started with pid 16
+2023-04-08 00:31:29,542 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-08 00:31:29,590 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:31:30,594 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-08 00:31:30,638 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:31:32,644 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-08 00:31:32,662 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:31:35,668 INFO spawned: 'rocketchat_checker' with pid 22
+2023-04-08 00:31:35,708 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:31:39,716 INFO spawned: 'rocketchat_checker' with pid 23
+2023-04-08 00:31:39,761 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:31:44,770 INFO spawned: 'rocketchat_checker' with pid 24
+2023-04-08 00:31:44,814 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:31:50,824 INFO spawned: 'rocketchat_checker' with pid 25
+2023-04-08 00:31:50,845 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:31:57,858 INFO spawned: 'rocketchat_checker' with pid 26
+2023-04-08 00:31:57,878 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:32:05,892 INFO spawned: 'rocketchat_checker' with pid 27
+2023-04-08 00:32:05,914 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:32:14,929 INFO spawned: 'rocketchat_checker' with pid 28
+2023-04-08 00:32:14,988 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:32:25,004 INFO spawned: 'rocketchat_checker' with pid 29
+2023-04-08 00:32:25,024 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:32:35,276 WARN received SIGINT indicating exit request
+2023-04-08 00:33:46,508 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-08 00:33:46,510 INFO supervisord started with pid 15
+2023-04-08 00:33:47,514 INFO spawned: 'rocketchat_checker' with pid 18
+2023-04-08 00:33:47,562 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:33:48,566 INFO spawned: 'rocketchat_checker' with pid 19
+2023-04-08 00:33:48,603 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:33:50,609 INFO spawned: 'rocketchat_checker' with pid 20
+2023-04-08 00:33:50,649 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:33:53,655 INFO spawned: 'rocketchat_checker' with pid 21
+2023-04-08 00:33:53,676 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:33:57,682 INFO spawned: 'rocketchat_checker' with pid 22
+2023-04-08 00:33:57,701 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:34:02,709 INFO spawned: 'rocketchat_checker' with pid 23
+2023-04-08 00:34:02,722 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:34:08,731 INFO spawned: 'rocketchat_checker' with pid 24
+2023-04-08 00:34:08,751 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:34:15,763 INFO spawned: 'rocketchat_checker' with pid 25
+2023-04-08 00:34:15,784 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:34:23,799 INFO spawned: 'rocketchat_checker' with pid 26
+2023-04-08 00:34:23,819 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:34:32,834 INFO spawned: 'rocketchat_checker' with pid 27
+2023-04-08 00:34:32,854 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:34:42,871 INFO spawned: 'rocketchat_checker' with pid 28
+2023-04-08 00:34:42,895 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:34:53,911 INFO spawned: 'rocketchat_checker' with pid 29
+2023-04-08 00:34:53,931 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:35:05,946 INFO spawned: 'rocketchat_checker' with pid 30
+2023-04-08 00:35:05,968 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:35:18,989 INFO spawned: 'rocketchat_checker' with pid 31
+2023-04-08 00:35:19,034 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:35:33,056 INFO spawned: 'rocketchat_checker' with pid 32
+2023-04-08 00:35:33,076 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:35:48,098 INFO spawned: 'rocketchat_checker' with pid 33
+2023-04-08 00:35:48,145 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:36:04,166 INFO spawned: 'rocketchat_checker' with pid 34
+2023-04-08 00:36:04,196 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:36:21,218 INFO spawned: 'rocketchat_checker' with pid 35
+2023-04-08 00:36:21,262 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:36:39,286 INFO spawned: 'rocketchat_checker' with pid 36
+2023-04-08 00:36:39,324 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:36:58,347 INFO spawned: 'rocketchat_checker' with pid 37
+2023-04-08 00:36:58,411 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:37:18,438 INFO spawned: 'rocketchat_checker' with pid 38
+2023-04-08 00:37:18,505 INFO exited: rocketchat_checker (exit status 1; not expected)
+2023-04-08 00:37:19,507 INFO gave up: rocketchat_checker entered FATAL state, too many start retries too quickly
+2023-04-08 00:52:22,679 WARN received SIGINT indicating exit request

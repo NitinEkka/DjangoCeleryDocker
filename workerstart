@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -o errexit
+
+set -o nounset
+
+celery -A inventory_app worker --loglevel=DEBUG -B --concurrency=1

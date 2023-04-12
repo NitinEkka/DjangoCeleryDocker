@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Report</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .container{
+            background-color: rgb(205, 205, 205);
+            border: 6px rgb(rgb(0, 0, 0), green, blue);
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <ul>
+        
+    <h1 style="color: rgb(0, 0, 0); font-family: 'Times New Roman', Times, serif;">DAILY REPORT FOR FARM {{ farm }} </h1>
+    {% for obj in data %}
+    <div class="container" style="color: black;">STOCK NAME : {{ obj.category_name }}
+        <br>
+                                                   STOCK QUANTITY : {{ obj.quantity }}
+    </div>
+    {% endfor %}
+    </ul>
+</body>
+</html>
